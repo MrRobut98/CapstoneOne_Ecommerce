@@ -23,6 +23,7 @@ body {
     justify-content: space-between;
     align-items: center;
     position: sticky;
+    top: 0%;
     z-index: 999;
     background-color: #f3f4f6;
     box-shadow: 0 0 14px rgba(0, 0, 0, 0.3) 
@@ -62,7 +63,7 @@ body {
 /* Content */
 
 .content {
-    background-image: url();
+    background-image: url(https://t4.ftcdn.net/jpg/03/01/90/79/360_F_301907970_ZVaPcSGe9rgYgRMRGUcbf91YxNwB7d2W.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 0 5%;
@@ -70,6 +71,85 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    color: #424144 ;
+    color: #ffffff ;
     height: 100vh;
+}
+
+.content h1 {
+    font-size: 40px;
+}
+
+.content p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+.content button{
+    margin-top: 30px;
+    padding: 15px 30px;
+    border: none;
+    background: #4606c7;
+    color:rgb(255, 250, 250);
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pheading {
+    text-align: center;
+    margin: 50px 0;
+    color: #fd6561;
+}
+
+/* Products */
+
+.sec {
+    padding: 10px 5%;
+}
+
+.products .card {
+  width: 310px; 
+  background: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.products .card img {
+    height: 250px;
+    width: 100%;
+}
+
+.products .card .desc {
+    padding: 5px 20px;
+    opacity:  0.8;
+}
+
+.products .card .title {
+    font-weight: 900;
+    font-size: 20px;
+    color: #424144;
+    padding: 0 20px;
+}
+
+.products .card .box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;  
+}
+
+.products .card .box .price {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+} 
+
+.products .card .box .btn {
+    font-size: 13px;
+    color: black;
+    padding: 10px 20px;
+    font-weight: 900;
+    border: 1px solid black ;
+    border-radius: 18px;
 }
