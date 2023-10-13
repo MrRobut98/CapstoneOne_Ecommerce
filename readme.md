@@ -4,3 +4,5 @@ ARCV is an a consumer to consumer e-commerce store built to bring people who are
 Users will be able to follow our news letters and hear about the latest fashion trends also engage in our forum page and enteract with like minded individuals. Also soon to come will be articles pertaining to fashion history, news, and the state of fashion.
 
 ARCV is in pre alpha stages so this work is just a mock up of what to expect many more ideas and features will be implemented going into the future
+
+One function that thought was cool was creating the cards for the products in html and decorating them in css adding the oppacity changing the font size, color and weight also setting the class properties for all card images to be the same and repeat i struggled alot with making images fit how i wanted and not conflict
