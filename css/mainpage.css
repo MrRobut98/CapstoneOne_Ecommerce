@@ -1,17 +1,71 @@
-body { 
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(40, 40, 40, 0.75),rgba(40, 40, 40, 0.75)),url(https://media.licdn.com/dms/image/D4E12AQGt2FkQ8xurxg/article-cover_image-shrink_720_1280/0/1694598404472?e=2147483647&v=beta&t=Q1Fx__uCvf3BgL8KZYdXeCTTcDp3ph1seu6WVRHls04);
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif; 
+  }
+  
+  body {
+      height: 100%;
+      background: url(https://luisfashionopinions.files.wordpress.com/2017/04/antwerp-6.jpg?w=840) no-repeat;
     background-size: cover;
-    background-position: center;
-   
-}
-.navbar{
-    background-color:black;
-    width: 85%;
-    margin: auto;
-    padding: 35px 0;
+
+  
+  }
+  
+  /* Header */
+  .menu-btn{
+      color: #424144;
+      font-size: 23px;
+      cursor: pointer;
+      display: none;
+  }
+  
+  .navbar{
+      padding: 20px 5%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0%;
+      z-index: 999;
+      background-color: #f3f4f6;
+      box-shadow: 0 0 14px rgba(0, 0, 0, 0.3) 
+  }
+  
+  .navbar .logo h1 {
+      color: #424144;
+      border-bottom: 4px solid#2d2a3796;
+  }
+  
+  .navbar .menu li{
+      list-style: none;
+      display: inline-block;
+  }
+  
+  .navbar .menu li a {
+      display: block;
+      margin-left: 20px;
+      color: #424144;
+      border-bottom: 4px solid transparent;
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: bold;
+  }
+  .navbar .menu li .active {
+      border-bottom:4px solid #2d2a3796;
+  }
+  
+  .navbar .menu li a i {
+      color: #2d2a3796;
+  }
+  
+  .navbar .menu li a:hover {
+      border-bottom:4px solid #2d2a3796;
+  }
+
+  footer {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-}
+    position: absolute;
+    bottom: 0;
+  }
