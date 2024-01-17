@@ -69,3 +69,9 @@
     position: absolute;
     bottom: 0;
   }
+
+  /* Dark Mode */
+  .dark-mode {
+    background-color: #222;
+    color: #fff;
+  }
