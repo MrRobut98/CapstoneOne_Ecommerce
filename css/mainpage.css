@@ -69,3 +69,8 @@
     position: absolute;
     bottom: 0;
   }
+
+  .footer .logo h1 {
+    color: #424144;
+    border-bottom: 4px solid#2d2a3796;
+}
