@@ -4,10 +4,12 @@
     font-family: Helvetica, sans-serif; 
   }
   
-  body {
-      height: 100vh;
+  header {
+      height: 50vh;
+      width: 100%;
       background: url(https://luisfashionopinions.files.wordpress.com/2017/04/antwerp-6.jpg?w=840) no-repeat;
       background-size: contain;
+      background-repeat: repeat;
   }
   
   /* Header */
